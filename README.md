@@ -78,7 +78,7 @@ disable = true
 
 Start a terminal and launch ```parity --config node0.toml```
 
-Start Web explorer and access the adress [127.0.0.1:8180](127.0.0.1:8180) 
+Start Web explorer and access the adress [127.0.0.1:8180](http://127.0.0.1:8180) 
 
 follow the step of the account creation
 go to the setting menu and check the status interface and the contract interface
@@ -106,7 +106,7 @@ disable = true
 ```
 replace _"enode://0xdeadbeef"_ by your enode value.
 then you can launch the command ```parity --config node1.toml```
-Access [127.0.0.1:8181](127.0.0.1:8181) 
+Access [127.0.0.1:8181](http://127.0.0.1:8181) 
 
 then you can create a new account on the node1.
 And copy the address of this account.
@@ -124,7 +124,7 @@ Now you can add money to an account by changing the demo-spec.json file by chang
     }
 ```
 deploy node0.toml and node1.toml with the command  ```parity --config node0.toml```
-access [127.0.0.1:8181](127.0.0.1:8181)
+access [127.0.0.1:8181](http://127.0.0.1:8181)
 and check the account balance.
 
 #Create and deploy a contract and a certifier
