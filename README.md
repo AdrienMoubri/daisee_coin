@@ -133,7 +133,7 @@ To create a certifier, we need to launch the command ```parity account new --cha
 enter and confirm the password of the mineer.
 create a file node.pwds
 and past the password of your mineer account.
-access [127.0.0.1:8180](127.0.0.1:8180) and copy your mineer account ID it should be the unnamed account on your node0.
+access [127.0.0.1:8180](http://127.0.0.1:8180) and copy your mineer account ID it should be the unnamed account on your node0.
 open the file node0.toml and add the lines 
 ```
 [parity]
